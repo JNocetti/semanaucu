@@ -3,23 +3,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: grey; /* Fondo gris */
     background-image: linear-gradient(to bottom, #808080 50%, #ffffff 50%);
     background-repeat: no-repeat;
+    font-size: 16px; /* Tamaño de fuente base */
 }
-.centrado{
+.imagen-achicada {
+    width: 8em; /* Ancho deseado en unidades em */
+    height: 6em; /* Alto deseado en unidades em */
+}
+
+.centrado {
     margin: auto;
     width: 60%;
-    border: 0.1em solid black;
-    padding: 1em;    
+    border: 0.0625em solid black; /* 1px en unidades em */
+    padding: 1em; /* 16px en unidades em */
 }
-/* Estilos para el encabezado */
+
 /* Estilos para el encabezado */
 header {
     text-align: center;
-    padding: 1em;
+    padding: 1em; /* 16px en unidades em */
     background-color: #333; /* Fondo oscuro para el encabezado */
     color: white; /* Texto blanco */
-    font-size: 1.5em; /* Tamaño de fuente más grande */
+    font-size: 1.5em; /* 24px en unidades em */
     font-weight: bold; /* Texto en negrita */
     text-transform: uppercase; /* Texto en mayúsculas */
     letter-spacing: 0.2em; /* Espaciado entre letras */
@@ -30,21 +37,21 @@ header {
 }
 
 header p {
-    font-size: 1em; /* Tamaño de fuente más pequeño para el párrafo */
-    margin-top: 0.625em; /* Espacio superior para el párrafo */
+    font-size: 1em; /* Tamaño de fuente base */
+    margin-top: 0.625em; /* 10px en unidades em */
 }
 
 header h1 {
-    font-size: 2.25em;
-    margin-bottom: 0.625em; /* Espacio inferior entre el título y el párrafo */
+    font-size: 2.25em; /* 36px en unidades em */
+    margin-bottom: 0.625em; /* 10px en unidades em */
 }
 
 /* Estilos para el pie de página */
 footer {
     text-align: center;
-    padding: 0.625em;
-    background-color: white; /* Fondo blanco para el pie de página */
-    color: black; /* Texto negro */
+    padding: 0.625em; /* 10px en unidades em */
+    background-color: black; /* Fondo gris */
+    color: white; /* Texto negro */
 }
 
 footer p {
@@ -55,11 +62,11 @@ footer p {
 .product {
     text-align: center;
     margin: 1.25em auto; /* Centra los elementos horizontalmente con espacio en la parte superior e inferior */
-    width: 80%; /* Ancho ajustado */
-    max-width: 50em; /* Ancho máximo */
-    background-color: black; /* Fondo negro para los elementos de productos */
-    padding: 1.25em; /* Espaciado interior */
-    border: 0.0625em solid #ccc; /* Borde ligero */
+    width: 80%; /* 80% del ancho del contenedor padre */
+    max-width: 50em; /* 50em en unidades em */
+    background-color: grey; /* Fondo gris */
+    padding: 1.25em; /* 20px en unidades em */
+    border: 0.0625em solid #ccc; /* 1px en unidades em */
 }
 
 .product img {
@@ -72,12 +79,12 @@ footer p {
 /* Estilos para el carrusel de imágenes */
 .carousel {
     text-align: center;
-    width: 80%; /* Ancho ajustado */
-    max-width: 50em; /* Ancho máximo */
+    width: 80%; /* 80% del ancho del contenedor padre */
+    max-width: 50em; /* 50em en unidades em */
     margin: 1.25em auto; /* Centra el carrusel horizontalmente con espacio en la parte superior e inferior */
-    background-color: black; /* Fondo negro para el carrusel */
-    padding: 1.25em; /* Espaciado interior */
-    border: 0.0625em solid #ccc; /* Borde ligero */
+    background-color: black; /* Fondo gris */
+    padding: 1.25em; /* 20px en unidades em */
+    border: 0.0625em solid #ccc; /* 1px en unidades em */
 }
 
 .carousel img {
@@ -89,8 +96,8 @@ footer p {
 
 /* Estilos generales */
 body {
-    background-color: whitesmoke; /* Fondo negro */
-    color: black; /* Texto blanco */
+    background-color: grey; /* Fondo gris */
+    color: black; /* Texto negro */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -99,24 +106,22 @@ body {
 /* Estilos para el encabezado */
 .centrado {
     text-align: center;
-    padding: 1.25em;
+    padding: 1.25em; /* 20px en unidades em */
     background-color: #333; /* Fondo oscuro para el encabezado */
     color: white; /* Texto blanco */
     width: 100%; /* Ocupa todo el ancho */
 }
 
 /* Estilos para las tarjetas */
-/* Estilos para las tarjetas */
-/* Estilos para las tarjetas */
 .tarjeta {
     background-color: #fff;
-    border: 0.0625em solid #e0e0e0;
-    border-radius: 1em;
-    padding: 1.25em;
-    margin: 0.625em;
+    border: 0.0625em solid #e0e0e0; /* 1px en unidades em */
+    border-radius: 1em; /* Borde redondeado */
+    padding: 1.25em; /* 20px en unidades em */
+    margin: 0.625em; /* 10px en unidades em */
     text-align: center;
     box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
-    width: calc(25% - 2.5em);
+    width: calc(25% - 2.5em); /* 25% del ancho del contenedor padre con margen en unidades em */
     display: inline-block;
     vertical-align: top;
     transform: translateY(0);
@@ -129,11 +134,57 @@ body {
 }
 
 .tarjeta h3 {
-    font-size: 1.125em;
-    margin-bottom: 0.625em;
+    font-size: 1.125em; /* 18px en unidades em */
+    margin-bottom: 0.625em; /* 10px en unidades em */
 }
 
 .tarjeta p {
-    font-size: 1.25em;
-    color: black;
+    font-size: 1.25em; /* 20px en unidades em */
+    color: black; /* Texto negro */
 }
+
+.reseñas {
+    max-width: 50em; /* 50em en unidades em */
+    margin: 1.25em auto; /* 20px en unidades em, centrado horizontalmente con espacio en la parte superior e inferior */
+    padding: 1.25em; /* 20px en unidades em */
+    background-color: grey; /* Fondo gris */
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+}
+
+.reseñas p {
+    font-size: 1em; /* Tamaño de fuente base */
+    line-height: 1.5;
+    color: black; 
+}
+
+.reseña {
+    border: 0.0625em solid grey; /* 1px en unidades em */
+    border-radius: 0.3125em; /* 5px en unidades em */
+    padding: 1.25em; /* 20px en unidades em */
+    margin-bottom: 1.25em; /* 20px en unidades em */
+    background-color: grey; /* Fondo gris */
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+}
+
+.puntuación {
+    color: #ff6600; /* Color de las estrellas de puntuación */
+    font-size: 1em; /* 24px en unidades em */
+}
+
+.nombre-cliente {
+    font-style: italic;
+    text-align: right;
+    margin-top: 0.625em; /* 10px en unidades em (10px / 16px) */
+}
+
+
+/* Estilos para las estrellas de puntuación (FontAwesome) */
+.fa {
+    font-size: 1.5em; /* 24px en unidades em */
+    color: #ff6600; /* Color de las estrellas llenas */
+}
+
+.fa-star-o {
+    color: #ccc; /* Color de las estrellas vacías */
+}
+
