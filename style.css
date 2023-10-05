@@ -1,127 +1,125 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: grey; /* Fondo gris */
+    background-color: grey; 
     background-image: linear-gradient(to bottom, #808080 50%, #ffffff 50%);
     background-repeat: no-repeat;
-    font-size: 16px; /* Tamaño de fuente base */
+    font-size: 16px;
 }
 .imagen-achicada {
-    width: 8em; /* Ancho deseado en unidades em */
-    height: 6em; /* Alto deseado en unidades em */
+    width: 8em; 
+    height: 6em;
 }
 
 .centrado {
     margin: auto;
     width: 60%;
-    border: 0.0625em solid black; /* 1px en unidades em */
-    padding: 1em; /* 16px en unidades em */
+    border: 0.0625em solid black; 
+    padding: 1em; 
 }
 
-/* Estilos para el encabezado */
+
 header {
     text-align: center;
-    padding: 1em; /* 16px en unidades em */
-    background-color: #333; /* Fondo oscuro para el encabezado */
-    color: white; /* Texto blanco */
-    font-size: 1.5em; /* 24px en unidades em */
-    font-weight: bold; /* Texto en negrita */
-    text-transform: uppercase; /* Texto en mayúsculas */
-    letter-spacing: 0.2em; /* Espaciado entre letras */
-    border: 0.2em solid #ff6600; /* Borde naranja sólido */
-    border-radius: 1em; /* Borde redondeado */
-    width: 100%; /* Ancho del encabezado al 100% del contenedor padre */
-    margin: 0 auto; /* Centra horizontalmente el encabezado */
+    padding: 1em; 
+    background-color: #333; 
+    color: white; 
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    border: 0.2em solid #ff6600; 
+    border-radius: 1em;
+    width: 100%;
+    margin: 0 auto; 
 }
 
 header p {
-    font-size: 1em; /* Tamaño de fuente base */
-    margin-top: 0.625em; /* 10px en unidades em */
+    font-size: 1em; 
+    margin-top: 0.625em; 
 }
 
 header h1 {
-    font-size: 2.25em; /* 36px en unidades em */
-    margin-bottom: 0.625em; /* 10px en unidades em */
+    font-size: 2.25em; 
+    margin-bottom: 0.625em; 
 }
 
-/* Estilos para el pie de página */
+
 footer {
     text-align: center;
-    padding: 0.625em; /* 10px en unidades em */
-    background-color: black; /* Fondo gris */
-    color: white; /* Texto negro */
+    padding: 0.625em; 
+    background-color: black; 
+    color: white; 
 }
 
 footer p {
     margin: 0;
 }
 
-/* Estilos específicos para la página de productos */
+
 .product {
     text-align: center;
-    margin: 1.25em auto; /* Centra los elementos horizontalmente con espacio en la parte superior e inferior */
-    width: 80%; /* 80% del ancho del contenedor padre */
-    max-width: 50em; /* 50em en unidades em */
-    background-color: grey; /* Fondo gris */
-    padding: 1.25em; /* 20px en unidades em */
-    border: 0.0625em solid #ccc; /* 1px en unidades em */
+    margin: 1.25em auto; 
+    width: 80%; 
+    max-width: 50em; 
+    background-color: grey; 
+    padding: 1.25em; 
+    border: 0.0625em solid #ccc; 
 }
 
 .product img {
     max-width: 100%;
     height: auto;
-    display: block; /* Evita espacios no deseados debajo de las imágenes */
-    margin: 0 auto; /* Centra horizontalmente las imágenes */
+    display: block; 
+    margin: 0 auto;
 }
 
-/* Estilos para el carrusel de imágenes */
+
 .carousel {
     text-align: center;
-    width: 80%; /* 80% del ancho del contenedor padre */
-    max-width: 50em; /* 50em en unidades em */
-    margin: 1.25em auto; /* Centra el carrusel horizontalmente con espacio en la parte superior e inferior */
-    background-color: black; /* Fondo gris */
-    padding: 1.25em; /* 20px en unidades em */
-    border: 0.0625em solid #ccc; /* 1px en unidades em */
+    width: 80%; 
+    max-width: 50em; 
+    margin: 1.25em auto; 
+    background-color: black; 
+    padding: 1.25em; 
+    border: 0.0625em solid #ccc;
 }
 
 .carousel img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto; /* Centra horizontalmente las imágenes */
+    margin: 0 auto; 
 }
 
-/* Estilos generales */
 body {
-    background-color: grey; /* Fondo gris */
-    color: black; /* Texto negro */
+    background-color: grey; 
+    color: black; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Estilos para el encabezado */
 .centrado {
     text-align: center;
-    padding: 1.25em; /* 20px en unidades em */
-    background-color: #333; /* Fondo oscuro para el encabezado */
-    color: white; /* Texto blanco */
-    width: 100%; /* Ocupa todo el ancho */
+    padding: 1.25em; 
+    background-color: #333; 
+    color: white; 
+    width: 100%; 
 }
 
-/* Estilos para las tarjetas */
+
 .tarjeta {
     background-color: #fff;
-    border: 0.0625em solid #e0e0e0; /* 1px en unidades em */
-    border-radius: 1em; /* Borde redondeado */
-    padding: 1.25em; /* 20px en unidades em */
-    margin: 0.625em; /* 10px en unidades em */
+    border: 0.0625em solid #e0e0e0; 
+    border-radius: 1em;
+    padding: 1.25em; 
+    margin: 0.625em; 
     text-align: center;
     box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
-    width: calc(25% - 2.5em); /* 25% del ancho del contenedor padre con margen en unidades em */
+    width: calc(25% - 2.5em); 
     display: inline-block;
     vertical-align: top;
     transform: translateY(0);
@@ -134,64 +132,64 @@ body {
 }
 
 .tarjeta h3 {
-    font-size: 1.125em; /* 18px en unidades em */
-    margin-bottom: 0.625em; /* 10px en unidades em */
+    font-size: 1.125em; 
+    margin-bottom: 0.625em; 
 }
 
 .tarjeta p {
-    font-size: 1.25em; /* 20px en unidades em */
-    color: black; /* Texto negro */
+    font-size: 1.25em; 
+    color: black; 
 }
 
 .reseñas {
-    max-width: 50em; /* 50em en unidades em */
-    margin: 1.25em auto; /* 20px en unidades em, centrado horizontalmente con espacio en la parte superior e inferior */
-    padding: 1.25em; /* 20px en unidades em */
-    background-color: grey; /* Fondo gris */
+    max-width: 50em; 
+    margin: 1.25em auto; 
+    padding: 1.25em; 
+    background-color: grey;
     box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
 }
 
 .reseñas p {
-    font-size: 1em; /* Tamaño de fuente base */
+    font-size: 1em; 
     line-height: 1.5;
     color: black; 
 }
 
 .reseña {
-    border: 0.0625em solid grey; /* 1px en unidades em */
-    border-radius: 0.3125em; /* 5px en unidades em */
-    padding: 1.25em; /* 20px en unidades em */
-    margin-bottom: 1.25em; /* 20px en unidades em */
-    background-color: grey; /* Fondo gris */
+    border: 0.0625em solid grey; 
+    border-radius: 0.3125em; 
+    padding: 1.25em; 
+    margin-bottom: 1.25em;
+    background-color: grey; 
     box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
 }
 
 .puntuación {
-    color: #ff6600; /* Color de las estrellas de puntuación */
-    font-size: 1em; /* 24px en unidades em */
+    color: #ff6600; 
+    font-size: 1em; 
 }
 
 .nombre-cliente {
     font-style: italic;
     text-align: right;
-    margin-top: 0.625em; /* 10px en unidades em (10px / 16px) */
+    margin-top: 0.625em; 
 }
 
 
-/* Estilos para las estrellas de puntuación (FontAwesome) */
+
 .fa {
-    font-size: 1.5em; /* 24px en unidades em */
-    color: #ff6600; /* Color de las estrellas llenas */
+    font-size: 1.5em; 
+    color: #ff6600;
 }
 
 .fa-star-o {
-    color: #ccc; /* Color de las estrellas vacías */
+    color: #ccc; 
 }
 
 .precios{
     font-size: 1.5em;
     color: red;
     text-align: center;
-    margin-top: 0.625em; /* 10px en unidades em (10px / 16px) */
+    margin-top: 0.625em; 
 }
 
