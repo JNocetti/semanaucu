@@ -188,3 +188,10 @@ body {
     color: #ccc; /* Color de las estrellas vacías */
 }
 
+.precios{
+    font-size: 1.5em;
+    color: red;
+    text-align: center;
+    margin-top: 0.625em; /* 10px en unidades em (10px / 16px) */
+}
+
