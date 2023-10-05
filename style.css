@@ -1,0 +1,139 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #808080 50%, #ffffff 50%);
+    background-repeat: no-repeat;
+}
+.centrado{
+    margin: auto;
+    width: 60%;
+    border: 0.1em solid black;
+    padding: 1em;    
+}
+/* Estilos para el encabezado */
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    padding: 1em;
+    background-color: #333; /* Fondo oscuro para el encabezado */
+    color: white; /* Texto blanco */
+    font-size: 1.5em; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 0.2em; /* Espaciado entre letras */
+    border: 0.2em solid #ff6600; /* Borde naranja sólido */
+    border-radius: 1em; /* Borde redondeado */
+    width: 100%; /* Ancho del encabezado al 100% del contenedor padre */
+    margin: 0 auto; /* Centra horizontalmente el encabezado */
+}
+
+header p {
+    font-size: 1em; /* Tamaño de fuente más pequeño para el párrafo */
+    margin-top: 0.625em; /* Espacio superior para el párrafo */
+}
+
+header h1 {
+    font-size: 2.25em;
+    margin-bottom: 0.625em; /* Espacio inferior entre el título y el párrafo */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 0.625em;
+    background-color: white; /* Fondo blanco para el pie de página */
+    color: black; /* Texto negro */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos específicos para la página de productos */
+.product {
+    text-align: center;
+    margin: 1.25em auto; /* Centra los elementos horizontalmente con espacio en la parte superior e inferior */
+    width: 80%; /* Ancho ajustado */
+    max-width: 50em; /* Ancho máximo */
+    background-color: black; /* Fondo negro para los elementos de productos */
+    padding: 1.25em; /* Espaciado interior */
+    border: 0.0625em solid #ccc; /* Borde ligero */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Evita espacios no deseados debajo de las imágenes */
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
+}
+
+/* Estilos para el carrusel de imágenes */
+.carousel {
+    text-align: center;
+    width: 80%; /* Ancho ajustado */
+    max-width: 50em; /* Ancho máximo */
+    margin: 1.25em auto; /* Centra el carrusel horizontalmente con espacio en la parte superior e inferior */
+    background-color: black; /* Fondo negro para el carrusel */
+    padding: 1.25em; /* Espaciado interior */
+    border: 0.0625em solid #ccc; /* Borde ligero */
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente las imágenes */
+}
+
+/* Estilos generales */
+body {
+    background-color: whitesmoke; /* Fondo negro */
+    color: black; /* Texto blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+.centrado {
+    text-align: center;
+    padding: 1.25em;
+    background-color: #333; /* Fondo oscuro para el encabezado */
+    color: white; /* Texto blanco */
+    width: 100%; /* Ocupa todo el ancho */
+}
+
+/* Estilos para las tarjetas */
+/* Estilos para las tarjetas */
+/* Estilos para las tarjetas */
+.tarjeta {
+    background-color: #fff;
+    border: 0.0625em solid #e0e0e0;
+    border-radius: 1em;
+    padding: 1.25em;
+    margin: 0.625em;
+    text-align: center;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+    width: calc(25% - 2.5em);
+    display: inline-block;
+    vertical-align: top;
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.tarjeta:hover {
+    transform: translateY(-1.25em);
+    transition: transform 0.5s ease-in-out;
+}
+
+.tarjeta h3 {
+    font-size: 1.125em;
+    margin-bottom: 0.625em;
+}
+
+.tarjeta p {
+    font-size: 1.25em;
+    color: black;
+}
